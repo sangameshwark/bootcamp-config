@@ -45,10 +45,10 @@ dataSetExternalId: _DEPR_uc:001:oee:ds_[2023-03-31T12:54:29.098618+02:00]
 authentication:
     clientId: ${CLIENT_ID}
     clientSecret: ${CLIENT_SECRET}
-    tokenUrl: ${TOKEN_URL}
+    tokenUrl: https://login.microsoftonline.com/16e3985b-ebe8-4e24-9da4-933e21a9fc81/oauth2/v2.0/token
 #   # Optional: If idP requires providing the scopes
     cdfProjectName: ${CDF_PROJECT_NAME}
-#   scopes:
-#    - ${SCOPES}
+    scopes:
+        - https://westeurope-1.cognitedata.com/.default
 #   # Optional: If idP requires providing the audience
 #   audience: ${AUDIENCE}
