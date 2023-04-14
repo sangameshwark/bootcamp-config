@@ -9,7 +9,7 @@ destination:
 ignoreNullFields: true
 shared: true
 action: upsert
-dataSetExternalId: src:all
+dataSetExternalId: src.001.sap:ds
 # Added authentication information
 authentication:
     clientId: ${COGNITE_CLIENT_ID}
