@@ -18,7 +18,7 @@ destination:
 ignoreNullFields: true
 shared: true
 action: update
-dataSetExternalId: _DEPR_uc:001:oee:ds_[2023-03-31T12:54:29.098618+02:00]
+dataSetExternalId: uc:001:oee:ds
 # Specify credentials separately like this:
 # authentication:
 #   read:
